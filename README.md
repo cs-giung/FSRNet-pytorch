@@ -88,3 +88,18 @@ python train_GAN.py --dataset {celeb, helen}
 ```
 
 _**TODO : reproduce the results presented in the paper...**_
+
+## References
+
+* **FSRNet: End-to-End Learning Face Super-Resolution with Facial Priors** <br>
+  *Yu Chen, Ying Tai, Xiaoming Liu, Chunhua Shen, Jian Yang* <br>
+  https://arxiv.org/abs/1711.10703
+
+* **Interactive facial feature localization** <br>
+  *Vuong Le, Jonathan Brandt, Zhe Lin, Lubomir Bourdev, Thomas S. Huang* <br>
+  http://www.ifp.illinois.edu/~vuongle2/helen/
+
+* **MaskGAN: Towards Diverse and Interactive Facial Image Manipulation** <br>
+  *Cheng-Han Lee, Ziwei Liu, Lingyun Wu, Ping Luo* <br>
+  https://arxiv.org/abs/1907.11922
+  
