@@ -6,7 +6,7 @@ This repository is a PyTorch implementation of [FSRNet: End-to-End Learning Face
 * [cydiachen's code (PyTorch)](https://github.com/cydiachen/FSRNET_pytorch)
 * [liang23333's code (TensorFlow)](https://github.com/liang23333/FSRNet-Tensorflow)
 
-> Note: This repository has not yet reproduced the performance of the original implementation.
+_**Note: This repository has not yet reproduced the performance of the original implementation.**_
 
 ## Demo
 
@@ -68,7 +68,7 @@ python eval.py --checkpoint ./e099_psnr22.53.pth
 | __FSRNet Paper__          | CelebA        | 18000/100  | 23.75/0.6423       | 26.31/0.7522      | +10.78% | +17.11% |
 | __Implementation__ | CelebAMask-HQ | 20951/100  | 21.71/0.6045       | 22.55/0.7008      |  +3.87% | +15.93% |
 
-* _TODO : reproduce the results presented in the paper..._
+_**TODO : reproduce the results presented in the paper...**_
 
 ## FSRGAN
 
@@ -86,3 +86,5 @@ python eval.py --checkpoint ./e099_psnr22.53.pth
 ```
 python train_GAN.py --dataset {celeb, helen}
 ```
+
+_**TODO : reproduce the results presented in the paper...**_
