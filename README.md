@@ -35,9 +35,9 @@ CelebAMask-HQ provides **19 classes masking images** by default, and this allows
 
 ![](./_md/Figure_1.png)
 
-* Train *Coarse SR Network* to minimize (1).
-* Train *Coarse SR Network*, and *Prior Estimation Network* to minimize (2).
-* Train whole network to minimize (3).
+* *Coarse SR Network* is trained by minimizing (1).
+* *Coarse SR Network* and *Prior Estimation Network* are trained by minimizing (2).
+* *Coarse SR Network*, *Prior Estimation Network*, *Fine SR Encoder*, and *Fine SR Decoder* are trained by minimizing (3).
 
 ### Train
 
