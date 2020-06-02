@@ -29,7 +29,8 @@ root/
 |   +-- { *.jpg }
 |
 +-- CelebAMask-HQ-mask-anno/
-|   +-- { *.png }
+|   +-- merged/
+|       +-- { *.png }
 |
 +-- train_fileList.txt
 +-- test_fileList.txt
